@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+::selection{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ff0000;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 20px;           /* roundness of the scroll thumb */
+    border: 3px solid #ff0000;  /* creates padding around scroll thumb */
+  }
+.topHead{
+    background-color: #fafafa;
+    border-top: 3px solid #33a3ff;
+}
+.topHead p{
+    font-size: 13px;
+    color: #cacaca;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.icons{
+    color: #cacaca;
+}
+.icons:hover{
+    color: #33a3ff;
+}
+.navbar-nav a{
+    color: #8c8c8c;
+    margin-left: 10px;
+}
+.navbar-nav a:hover{
+    color: #33a3ff;
+    border-bottom: 1px solid #33a3ff;
+}
+.navbar-nav a:active{
+    color: #33a3ff;
+    border-bottom: 1px solid #33a3ff;
+}
+.bgimg{
+    background-image: url(images/slider-Background.jpg);
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #33a3ff;
+}
+.iconsBig
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    font-size: 21px;
+    color: #464646;
+    font-weight: 500;
+}
+.card-text{
+    font-size: 15px;
+    color: #959595;
+    font-weight: normal;
+    line-height: 18px;
+}
+.card:hover svg{
+    color: #33a3ff;
+}
+.card:hover .card-title {
+    color: #33a3ff;
+}
+.txt2:hover{
+    color: #33a3ff;
+}
+.secBanner2{
+    background-image: url(images/parallax1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detailsBTN:hover{
+    background-color: #33a3ff !important;
+}
+.aBtn:hover{
+    background-color: #fa0036 !important;
+}
+.thirdBanner{
+    background-image: url(images/happy1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.tooltip{ 
+    position:relative;
+    float:right;
+  }
+  .tooltip > .tooltip-inner {
+    background-color: #eebf3f;
+    padding:5px 15px;
+    color:rgb(23,44,66);
+    font-weight:bold;
+    font-size:13px;
+}
+  .popOver + .tooltip > .tooltip-arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #eebf3f;
+}
+  
+  section{
+    margin:100px auto; 
+    height:1000px;
+  }
+  .progress{
+    border-radius:0;
+    overflow:visible;
+  }
+  .progress-bar{
+     background:rgb(23,44,60); 
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+  }
+.futor{
+    border-top: 3px solid #33a3ff;
+    background-color: #252525;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0px;
+}
+.futorLI:hover{
+    color: #33a3ff !important;
+}
+.MailInpt input{
+    color: #cacaca;
+}
+.MailInpt input:focus{
+    outline: none;
+    color: #ff0000;
+}
+.ftrBTN{
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 8px 12px;
+    margin-top: 16px;
+}
+.ftrBTN:hover{
+    background-color: #33a3ff;
+}
+@media only screen and (max-width: 667px){
+    .logoClass{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
